@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echo "First workflow runned"
+        run: echo "Hello World"
       - name: Multiline Command
         run: |
           node -v
@@ -22,5 +22,5 @@ jobs:
     steps:
       - name: echo a string
         run: Write-Output "Windows String"
-      - name: Error Step
-        run: doesnotexitsss
+      # - name: Error Step
+      #   run: doesnotexitsss
